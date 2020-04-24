@@ -9,3 +9,9 @@ function mySecondFunction() {
     name += "Gabe";
     document.getElementById("adding-stuff").innerHTML = name; 
 }
+
+function calculateTax(meal, tax) {
+    var total = (tax/100) * meal + meal;
+    var total = "$" + total;
+    document.getElementById('calculate').innerHTML = total; 
+}
