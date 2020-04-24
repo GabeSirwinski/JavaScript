@@ -33,10 +33,10 @@ function trueOrFalse() {
     var Y = 'ten';
     var Z = 10;
     var A = 11;
-    trueOne = X === Z;
-    falseOne = X === Y;
-    falseTwo = X === A;
-    falseThree = Y === A;
+    var trueOne = X === Z;
+    var falseOne = X === Y;
+    var falseTwo = X === A;
+    var falseThree = Y === A;
     document.getElementById("true").innerHTML = "10 is equal to 10: " + trueOne;
     document.getElementById("false-one").innerHTML = "Ten is equal to 10: " + falseOne;
     document.getElementById("false-two").innerHTML = "10 is equal to 11: " + falseTwo;
